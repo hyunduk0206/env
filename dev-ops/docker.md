@@ -13,6 +13,10 @@ Then copy your image to a new system with regular file transfer tools such as cp
 ```bash
 sudo docker load -i <path to image tar file>
 ```
+You should add filename (not just directory) with -o, for example:
+```bash
+sudo docker save -o c:/myfile.tar centos:16
+```
 
 
 ### Run Docker without sudo Linux
