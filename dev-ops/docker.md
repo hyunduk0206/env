@@ -2,24 +2,6 @@
 ```bash
 sudo docker image ls
 ```
-```zsh
-sudo docker image ls
-```
-```console
-sudo docker image ls
-```
-```shell
-sudo docker image ls
-```
-```ps
-sudo docker image ls
-```
-```dos
-sudo docker image ls
-```
-```sh
-sudo docker image ls
-```
 
 
 ### How to copy Docker images from one host to another without using a repository
