@@ -1,31 +1,41 @@
 # watch gpu usage
+
 ```bash
 nvidia-smi -l 1
 ```
 
 # cuda install (use run file)
 
-- 7.3. Disabling Nouveau
-<https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#runfile-nouveau-ubuntu>
+-   7.3. Disabling Nouveau
+    <https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#runfile-nouveau-ubuntu>
+
+-   gcc
+
 ```bash
-sudo vim <path>
+sudo apt install build-essential -y
 ```
-- setup paths (cuda 11.1.1)
+
+-   setup paths (cuda 11.1.1)
+
 ```bash
 echo 'export PATH=/usr/local/cuda-11.1/bin:$PATH' >> ~/.zshrc
 echo 'export LD_LIBRARY_PATH=/usr/local/cuda-11.1/lib64:$LD_LIBRARY_PATH' >> ~/.zshrc
 source ~/.zshrc
 ```
+
 ```bash
 nvcc -V
 ```
 
 # uninstall cuda toolkit (run file installation case)
+
 <https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#runfile-uninstallation>
 
 # nvidia-container-toolkit install
-- ERRO[0000] error waiting for container: context canceled
-- https://github.com/NVIDIA/nvidia-docker/issues/1034
+
+-   ERRO[0000] error waiting for container: context canceled
+-   https://github.com/NVIDIA/nvidia-docker/issues/1034
+
 ```bash
 distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
 curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -

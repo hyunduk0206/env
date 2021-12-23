@@ -10,6 +10,7 @@ sudo apt install vim -y
 ```
 
 ## Add your own customizations in ~/.vim_runtime/my_configs.vim
+
 ```bash
 autocmd filetype javascript nnoremap <F5> :w <bar> exec '!node '.shellescape('%')<CR>
 ```
