@@ -34,5 +34,5 @@ google-chrome https://trello.com/b/xKNpmCc2/2020-%EA%B3%B5%EA%B0%90%EC%84%9C%EB%
 ```
 
 ```bash
-firefox https://www.google.com/calendar/render https://mail.daum.net https://gnict.dooray.com/messenger https://signin.aws.amazon.com/signin
+firefox https://www.google.com/calendar/render https://mail.daum.net https://gnict.dooray.com/messenger https://aws.amazon.com/marketplace/management/signin
 ```
