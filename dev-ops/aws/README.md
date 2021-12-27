@@ -3,6 +3,7 @@ https://docs.aws.amazon.com/index.html
 
 # Mis
 ```bash
+aws ec2 run-instances --image-id <AMI ID> --instance-type t2.micro --key-name <Key Pairs>
 aws sts get-caller-identity --profile <profile_name>
 aws configure list --profile <profile_name>
 ```
