@@ -1,3 +1,8 @@
+# dataset
+```bash
+aws --endpoint-url=https://kr.object.ncloudstorage.com s3 ls s3://aidata-2021-01-052/"088.주차 공간 탐색을 위한 차량 관점 복합 데이터"/
+```
+
 # S3
 ```bash
 aws s3 sync <source> <target> [--options]
