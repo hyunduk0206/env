@@ -1,11 +1,18 @@
-# Doc
-https://docs.aws.amazon.com/index.html
+# S3
+```bash
+aws s3 sync <source> <target> [--options]
+```
 
-# free instances
-## create
+
+# EC2
+## create free tier instance
 ```bash
 aws ec2 run-instances --image-id ami-0eb14fe5735c13eb5 --instance-type t2.micro --key-name <key pairs>
 ```
+
+# Doc
+https://docs.aws.amazon.com/index.html
+
 
 # Mis
 ```bash
