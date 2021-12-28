@@ -3,6 +3,11 @@
 ```bash
 nvidia-smi -l 1
 ```
+# GPU name
+```bash
+nvidia-smi --query-gpu=name --format=csv,noheader
+```
+
 
 # cuda install (use run file)
 
