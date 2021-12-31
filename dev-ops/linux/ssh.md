@@ -1,3 +1,13 @@
+## Connect over ssh using a .pem file
+```bash
+ssh -i mykey.pem user@mydomain.com
+```
+ssh will simply ignore a private key file if it is accessible by others
+```bash
+chmod go= mykey.pem
+```
+
+
 ## How to fix: "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED" on Mac and Linux
 
 ```bash
