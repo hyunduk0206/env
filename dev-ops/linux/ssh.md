@@ -56,5 +56,4 @@ Host ec2
   Hostname ec2-35-169-93-188.compute-1.amazonaws.com
   user ubuntu
   IdentityFile ~/.ssh/my-aws-key.pem
-  Port 22
 ```
