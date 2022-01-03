@@ -30,7 +30,35 @@ userSchema.pre("save", async function (next) {
     next();
 });
 
+/* static method to login user */
+userSchema.statics.login = async function (email, password) {
+    const user = await this.findOne({ email });
+    if (user) {
+        const auth = await bcrypt.compare(password, user.password);
+        if (auth) {
+            return user;
+        }
+        throw Error("incorrect password");
+    }
+    throw Error("incorrect email");
+};
+
+/* manual type */
+interface UserDocument {
+    _id: string;
+    email: string;
+    password: string;
+}
+
+interface UserModel extends mongoose.Model<UserDocument> {
+    login(email: string, password: string): UserDocument;
+}
+
 /* name should be singuler so that it is automatically connected to collection of plural name */
-const User = mongoose.model("user", userSchema);
+// const User = mongoose.model("user", userSchema);
+const User: UserModel = mongoose.model<UserDocument, UserModel>(
+    "user",
+    userSchema
+);
 
 export default User;
