@@ -2,6 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 import authRoutes from "./routes/authRoutes";
+import authMiddleware from "./middleware/authMiddleware";
 
 const app = express();
 
@@ -21,8 +22,11 @@ mongoose
     .catch((err) => console.log(err));
 
 /* routes */
+app.get("*", authMiddleware.checkUser);
 app.get("/", (req, res) => res.render("home"));
-app.get("/smoothies", (req, res) => res.render("smoothies"));
+app.get("/smoothies", authMiddleware.requireAuth, (req, res) =>
+    res.render("smoothies")
+);
 app.use(authRoutes);
 
 /* cookies */
