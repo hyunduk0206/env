@@ -2,7 +2,7 @@
 First, set up NAS NFS
 - Make share folder
 - NFS on
-- Grant the user
+- Grant the user access
 
 ```bash
 sudo mount -t nfs 192.168.0.30:/volume2/hshin /data
