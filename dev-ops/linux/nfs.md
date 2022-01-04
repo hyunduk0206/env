@@ -5,6 +5,10 @@ First, set up NAS NFS
 - Grant the user access
 
 ```bash
+sudo apt-get install nfs-common -y
+```
+
+```bash
 sudo mount -t nfs 192.168.0.30:/volume2/hshin /data
 ```
 
