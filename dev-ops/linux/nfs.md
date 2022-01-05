@@ -5,7 +5,7 @@ First, set up NAS NFS
 - Grant the user access
 
 ```bash
-sudo apt-get install nfs-common -y
+sudo apt install nfs-common -y
 ```
 
 ```bash
