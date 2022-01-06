@@ -16,9 +16,9 @@ sudo mount -t nfs 192.168.0.30:/volume2/hshin /data
 ```bash
 sudo vim /etc/fstab
 ```
-Add the share’s mount path from the Synology share setup step to the bottom of the file using the line below
+Add the share’s mount path from the Synology share setup step to the bottom of the file using the line below. Use tabs for spacing between values.
 ```bash
-192.168.0.30:/volume2/hshin    /data    auto,nofail,noatime,nolock,intr,tcp,actimeo=1800    0    0
+192.168.0.30:/volume2/hshin /data   nfs defaults    0   0
 ```
 # permission
 ```bash
