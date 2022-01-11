@@ -8,6 +8,12 @@ sudo apt install curl -y
 sudo apt install vim -y
 ```
 
+# How to Search for Files Recursively into Subdirectories
+```bash
+find . -name '*.xml'
+```
+
+
 # How to shutdown when power button pressed
 
 ```bash
