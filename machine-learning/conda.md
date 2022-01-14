@@ -7,6 +7,9 @@ remote
 ```bash
 jupyter-lab --ip 0.0.0.0 --port 8888 --no-browser
 ```
+```bash
+"fontFamily": "MesloLGS NF"
+```
 conda
 ```bash
 conda install -c conda-forge nb_conda_kernels
