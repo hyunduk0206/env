@@ -3,7 +3,10 @@
 
 # Jupyterlab
 remote
-https://www.chrisatmachine.com/Jupyter/01-jupyter-remote/
 ```bash
-# something
+jupyter-lab --ip 0.0.0.0 --port 8888 --no-browser
+```
+conda
+```bash
+conda install -c conda-forge nb_conda_kernels
 ```
