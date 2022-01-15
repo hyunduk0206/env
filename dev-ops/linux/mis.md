@@ -11,6 +11,17 @@ sudo systemctl status sleep.target suspend.target hibernate.target hybrid-sleep.
 rm ~/.local/share/keyrings/login.keyring
 ```
 
+# Fix low resolution of unknown display
+- Find display name
+```bash
+xrandr
+```
+- Set resolution (if the name is HDMI-1)
+```bash
+xrandr --addmode HDMI-1 1920x1080
+```
+
+
 # A2000U wireless setting
 
 ```bash
