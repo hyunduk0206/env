@@ -12,6 +12,12 @@ nvidia-smi -l 1
 nvidia-smi --query-gpu=name --format=csv,noheader
 ```
 
+# tensorflow
+```bash
+from tensorflow.python.client import device_lib
+device_lib.list_local_devices()
+```
+
 
 # cuda install (use run file)
 
