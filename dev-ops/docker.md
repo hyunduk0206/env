@@ -3,6 +3,11 @@
 sudo docker image ls
 ```
 
+### docker $ jupyter
+example (image name is lippoldt331/maskr-cnn)
+```bash
+sudo docker run -it -p 8888:8888 -p 6006:6006 -v ~/:/host lippoldt331/maskr-cnn jupyter lab --ip 0.0.0.0 --port 8888 --no-browser --allow-root /host
+```
 
 ### How to copy Docker images from one host to another without using a repository
 You will need to save the Docker image as a tar file:
