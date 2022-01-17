@@ -1,6 +1,10 @@
 # watch gpu usage
 
 ```bash
+watch -d -n 0.5 nvidia-smi
+```
+
+```bash
 nvidia-smi -l 1
 ```
 # GPU name
