@@ -57,3 +57,8 @@ Host ec2
   user ubuntu
   IdentityFile ~/.ssh/my-aws-key.pem
 ```
+
+### permission error
+```bash
+chmod 600 <key>
+```
