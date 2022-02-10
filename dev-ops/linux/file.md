@@ -1,6 +1,6 @@
 # sftp
 ```bash
-sftp -i aica_083_ftp.pem ubuntu@133.186.250.230
+sftp -i ~/.ftp/aica_083_ftp.pem ubuntu@133.186.250.230
 ```
 
 # nfs
