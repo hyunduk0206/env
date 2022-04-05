@@ -29,6 +29,6 @@ source ~/.zshrc
 ```
 
 # share
-https://garrulous-piano-1c5.notion.site/1474b2bcebe84e1dbbabbfb9db64cbf2?v=8ae78953a0254028b84e374fa3c177b4
-https://drive.google.com/drive/folders/1prfdFZLUfXytfgT-2kmq6n-SIiIwToGr?usp=sharing
+- https://garrulous-piano-1c5.notion.site/1474b2bcebe84e1dbbabbfb9db64cbf2?v=8ae78953a0254028b84e374fa3c177b4
+- https://drive.google.com/drive/folders/1prfdFZLUfXytfgT-2kmq6n-SIiIwToGr?usp=sharing
 
