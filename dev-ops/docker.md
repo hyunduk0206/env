@@ -3,6 +3,7 @@
 sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
+Then reboot
 
 ### frequently used commands
 ```bash
