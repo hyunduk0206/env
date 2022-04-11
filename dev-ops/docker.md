@@ -1,3 +1,9 @@
+### without root permissions
+```bash
+sudo groupadd docker
+sudo usermod -aG docker $USER
+```
+
 ### frequently used commands
 ```bash
 sudo docker image ls
