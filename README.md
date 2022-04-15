@@ -5,6 +5,8 @@
 - hwp
 - slack
 - discord
+- nvm
+- anaconda
 - printer driver (optional)
 
 # unpacking archive with Korean file names
