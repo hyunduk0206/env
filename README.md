@@ -1,3 +1,12 @@
+# install
+- graphic card driver
+- browsers: chrome, brave
+- vscode
+- hwp
+- slack
+- discord
+- printer driver (optional)
+
 # unpacking archive with Korean file names
 
 ```bash
