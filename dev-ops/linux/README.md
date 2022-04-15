@@ -42,9 +42,9 @@ xmodmap -pke > ~/.Xmodmap
 # startup
 
 ```bash
-google-chrome https://trello.com/b/xKNpmCc2/2020-%EA%B3%B5%EA%B0%90%EC%84%9C%EB%B9%84%EC%8A%A4 https://trello.com/b/emn9KLU2/2021-ai%ED%95%99%EC%8A%B5%EC%9A%A9%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B5%AC%EC%B6%95 https://mail.google.com https://news.google.com/topstories?hl=ko&gl=KR&ceid=KR:ko https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en
+google-chrome https://mail.google.com https://news.google.com/topstories?hl=ko&gl=KR&ceid=KR:ko https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en
 ```
 
 ```bash
-firefox https://www.google.com/calendar/render https://mail.daum.net https://gnict.dooray.com/messenger https://github.com/Comverser?tab=repositories
+firefox https://www.google.com/calendar/render https://mail.daum.net https://gnict.dooray.com/messenger https://github.com/hyunduk0206?tab=repositories https://www.notion.so/
 ```
