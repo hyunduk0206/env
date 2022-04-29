@@ -1,3 +1,8 @@
+# postgres
+```bash
+docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=4321 -d postgres
+```
+
 # nvm
 
 ## install
@@ -19,3 +24,4 @@ npm install --global yarn
 ```bash
 npm install -g typescript
 ```
+
