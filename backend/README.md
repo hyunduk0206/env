@@ -2,6 +2,9 @@
 ```bash
 docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=4321 -d postgres
 ```
+```bash
+DATABASE_URL='postgres://postgres:4321@localhost:5432/todos'
+```
 
 # nvm
 
