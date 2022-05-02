@@ -9,15 +9,6 @@
 - anaconda
 - printer driver (optional)
 
-# Korea
-```bash
-vim ~/.Xmodmap
-```
-```bash
-remove lock = Caps_Lock
-keycode 66 = Hangul
-```
-
 # unpacking archive with Korean file names
 
 ```bash
