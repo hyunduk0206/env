@@ -32,13 +32,6 @@ In the bottom of the file, add the following line:
 s ALL=(ALL) NOPASSWD:ALL
 ```
 
-# hangul mapping (Alt_R -> hangul)
-```bash
-xmodmap -e 'remove mod1 = Alt_R'
-xmodmap -e 'keycode 108 = Hangul'
-xmodmap -pke > ~/.Xmodmap
-```
-
 # startup
 
 ```bash
